@@ -1,32 +1,53 @@
-MotorPH Payroll System
+# MotorPH Payroll System 
 
-Description
+## Description
 
-A simple payroll system that allows users to manage employees and compute salaries.
+The MotorPH Payroll System is a console-based Java application designed to manage employee records and process payroll efficiently. This final version includes role-based access, employee management, payroll computation, and an interactive menu system.
 
-Features
+## Features
 
-* Add Employee
-* View Employees
-* Compute Salary
-* Data saving using JSON
+* Role-based system:
 
-How to Run
+  * Employee
+  * HR Staff
+  * Payroll Administrator
+* Employee Management:
 
-1. Install Python
-2. Run the program:
-   python motorph_payroll.py
+  * Add Employee
+  * Edit Employee
+  * View Employee Records
+* Payroll Processing:
 
-How to Use
+  * Compute Salary
+  * Automatic tax deduction
+* Menu-driven interface (user selects options by typing a number)
 
-When the menu appears, type the number of your chosen option and press Enter.
-Example:
+## How to Run
 
-  * Type **1** to add employee
-  * Type **2** to view employees
-  * Type **3** to compute salary
-  * Type **4** to exit the program
+1. Make sure Java (JDK) is installed
+2. Compile the program:
+   javac MotorPHPayroll.java
+3. Run the program:
+   java MotorPHPayroll
 
-File Storage
+## How to Use
 
-Employee data is saved in employees.json
+* When the program starts, select your role by typing the corresponding number.
+* Navigate through the system by entering the number of your chosen option.
+* Follow the prompts to input employee details and payroll data.
+
+## Example Usage
+
+* Type **2** to access HR functions (add/edit employees)
+* Type **3** to compute employee salary
+* Type **4** to exit the program
+
+## Notes
+
+* This is the final version of the MotorPH Payroll System.
+* The system demonstrates the complete development process including planning, coding, testing, and improvement from the initial version.
+
+## Developers
+
+* Group Members: [Add your names here]
+
